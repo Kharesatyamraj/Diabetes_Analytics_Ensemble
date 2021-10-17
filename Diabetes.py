@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 17 19:47:49 2021
 
 @author: khare
 """
@@ -16,12 +15,10 @@ from sklearn.preprocessing import LabelEncoder
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-#1.	Given is the diabetes dataset. Build an ensemble model to correctly classify 
-#the outcome variable and improve your model prediction by using GridSearchCV. 
-#You must apply Bagging, Boosting, Stacking, and Voting on the dataset.
+
 
 #Import Dataset
-df = pd.read_csv(r"C:/Users/khare/Downloads/Ensemble/Assign/Datasets_ET\\Diabeted_Ensemble.csv")
+df = pd.read_csv(r"\Diabeted_Ensemble.csv")
 
 # Preprocessing & EDA
 
